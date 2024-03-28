@@ -1,0 +1,5 @@
+http_proxy=http://localhost:9999 curl -H "Who-are-you: it's a secret" -X GET http://localhost:8081 
+
+curl localhost:9090/hi   
+
+curl localhost:8081/hi
